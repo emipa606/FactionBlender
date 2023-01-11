@@ -1,43 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>SineSwiper.FactionBlender</packageId>
-    <name>Faction Blender</name>
-    <author>SineSwiper</author>
-    <url>https://github.com/SineSwiper/RimWorld-FactionBlender</url>
-    <supportedVersions>
-        <li>1.0</li>
-        <li>1.1</li>
-        <li>1.2</li>
-        <li>1.3</li>
-    </supportedVersions>
-	<modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li>
-		<li>
-            <packageId>UnlimitedHugs.HugsLib</packageId>
-			<displayName>HugsLib</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
-			<downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
-		</li>
-		<li>
-            <packageId>erdelf.HumanoidAlienRaces</packageId>
-			<displayName>Humanoid Alien Races 2.0</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
-			<downloadUrl>steam://url/CommunityFilePage/839005762</downloadUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-		<li>brrainz.harmony</li>
-        <li>UnlimitedHugs.HugsLib</li>
-        <li>erdelf.HumanoidAlienRaces</li>
-    </loadAfter>
-<description>Are you annoyed that you downloaded all of these different races and animal mods, but they come with some boring homogeneous faction to show them off?  Wouldn't it be more realistic if there were a faction that brought these races together?
+  <name>Faction Blender (Continued)</name>
+  <packageId>Mlie.FactionBlender</packageId>
+  <author>SineSwiper</author>
+  <url>https://github.com/emipa606/FactionBlender</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>UnlimitedHugs.HugsLib</packageId>
+      <displayName>HugsLib</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+      <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>UnlimitedHugs.HugsLib</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of SineSwipers mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1734490820
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/FactionBlender][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/kbYsPSO.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h1]About[/h1]
+Are you annoyed that you downloaded all of these different races and animal mods, but they come with some boring homogeneous faction to show them off?  Wouldn't it be more realistic if there were a faction that brought these races together?
 
 Faction Blender fixes this problem by introducing a new faction that takes in refugees and wanderers from all races and walks of life to form a civil coalition!
 
@@ -47,9 +65,33 @@ Just have vanilla pawns in your game?  Now you have a faction with outlanders, t
 
 Pirates aren't left out, either.  An amalgam pirate band will come stomping with their own unified gang of pawns to terrorize your town, too.
 
-As a bonus, this also fixes a few problems with trade caravan pack animals, increasing the variety and how they carry their cargo.
+Requires HugsLib and Humanoid Alien Races 2.0.
 
-NEW: Now you can use all your races for vanilla starting scenarios!
+Chinese translation by CaptainSnafu. （中文汉化，简繁可用，但都显示简体。）
 
-Requires HugsLib and Humanoid Alien Races 2.0.</description>
+[h1]Features[/h1]
+[list][*] Adds two factions (one civil and one pirate) to your game.  (Must be a new game or use Vanilla Expanded Framework to add it in.  See FAQ entry below.)
+[*] New factions are composed of most pawn kinds used in both vanilla and mods
+[*] Also includes a third Ideology-only faction with truly random memes/precepts
+[*] Allows you to play the starting vanilla scenarios with a mixed pool of pawn kinds
+[*] A mixed set of races will also appear as refugees, slaves, and wanderers
+[*] Fixes trade caravan pack animals, increasing the variety and how they carry their cargo
+[*] Makes ancient dangers more interesting with modded creatures and pawns[/list]
+
+[h1]Got a question or issue?  [url=https://github.com/SineSwiper/RimWorld-FactionBlender/wiki/FAQ]Read the wonderful FAQ![/url][/h1]
+
+[h1]Other Resources[/h1]
+[list][*] [url=https://github.com/SineSwiper/RimWorld-FactionBlender/wiki/Blacklisted-Pawn-Kinds]Current list of blacklisted pawn kinds[/url]
+[*] Think you found a bug?  [url=https://github.com/SineSwiper/RimWorld-FactionBlender/issues]Report it![/url]
+[*] Try out [url=https://steamcommunity.com/id/sineswiper/myworkshopfiles/?appid=294100]my other mods[/url]![/list]
+	
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
 </ModMetaData>

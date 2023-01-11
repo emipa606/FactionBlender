@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <FactionDef>
     <defName>FactionBlender_Pirate</defName>
     <label>amalgam pirate band</label>
@@ -24,12 +23,11 @@
     <factionNameMaker>NamerFaction_FB_Pirate</factionNameMaker>
     <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
     <techLevel>Spacer</techLevel>
-
     <hairTags>
-        <li>Punk</li>
+      <li>Punk</li>
     </hairTags>
     <backstoryCategories>
-        <li>Raider</li>
+      <li>Raider</li>
     </backstoryCategories>
     <geneticVariance>1</geneticVariance>
     <allowedArrivalTemperatureRange>
@@ -45,20 +43,19 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-
     <!-- Pawn lists filled by DefsLoaded hook -->
     <pawnGroupMakers>
       <!-- Standard collection of all fighters -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Ranged only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>65</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Melee only -->
       <li>
@@ -67,19 +64,19 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
       <!-- Snipers only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Heavy damage types -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>25</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Mostly non-humans -->
       <li>
@@ -88,17 +85,15 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
-
       <li>
         <kindDef>Settlement</kindDef>
-        <options/>
+        <options />
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
   </FactionDef>
-
   <FactionDef>
     <defName>FactionBlender_Civil</defName>
     <label>civil coalition</label>
@@ -131,12 +126,11 @@
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <techLevel>Spacer</techLevel>
     <geneticVariance>1</geneticVariance>
-
     <hairTags>
-        <li>Urban</li>
+      <li>Urban</li>
     </hairTags>
     <backstoryCategories>
-        <li>Civil</li>
+      <li>Civil</li>
     </backstoryCategories>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
@@ -150,7 +144,6 @@
     <baseTraderKinds>
       <li>Base_Outlander_Standard</li>
     </baseTraderKinds>
-
     <allowedArrivalTemperatureRange>
       <min>-40</min>
       <max>45</max>
@@ -164,20 +157,19 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-
     <!-- Pawn lists filled by DefsLoaded hook -->
     <pawnGroupMakers>
       <!-- Standard collection of all fighters -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Ranged only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>65</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Melee only -->
       <li>
@@ -188,19 +180,19 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
       <!-- Snipers only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Heavy damage types -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>25</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Mostly non-humans -->
       <li>
@@ -209,25 +201,23 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
-
       <li>
         <kindDef>Peaceful</kindDef>
-        <options/>
+        <options />
       </li>
       <li>
         <kindDef>Trader</kindDef>
-        <traders/>
-        <carriers/>
-        <guards/>
+        <traders />
+        <carriers />
+        <guards />
       </li>
       <li>
         <kindDef>Settlement</kindDef>
-        <options/>
+        <options />
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
   </FactionDef>
-
 </Defs>

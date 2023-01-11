@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <FactionDef ParentName="FactionBase">
     <defName>FactionBlender_Pirate</defName>
     <label>amalgam pirate band</label>
@@ -9,42 +8,40 @@
     <pawnsPlural>pirates</pawnsPlural>
     <categoryTag>Pirates</categoryTag>
     <allowedCultures>
-        <li>FB_AmalgamPirates</li>
+      <li>FB_AmalgamPirates</li>
     </allowedCultures>
     <requiredMemes>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
     </requiredMemes>
     <disallowedMemes>
-        <!-- Memes that don't fit with an amalgam of races -->
-        <li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophobia</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li>
-
-        <!-- Memes that don't fit with pirates -->
-        <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_Artist</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_BiologicalReconstructors</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_Monastic</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Trader</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Healthcare</li>
-
-        <!-- Memes that aren't practical for combat -->
-        <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_NonViolence</li>
-        <!-- NOTE: We allow light/dark limiters here, but not for FactionBlender_Civil -->
+      <!-- Memes that don't fit with an amalgam of races -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophobia</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li>
+      <!-- Memes that don't fit with pirates -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Artist</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_BiologicalReconstructors</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Monastic</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Trader</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Healthcare</li>
+      <!-- Memes that aren't practical for combat -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_NonViolence</li>
+      <!-- NOTE: We allow light/dark limiters here, but not for FactionBlender_Civil -->
     </disallowedMemes>
     <classicIdeo>false</classicIdeo>
     <structureMemeWeights>
-        <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
-        <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
-        <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-        <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
     </structureMemeWeights>
     <listOrderPriority>10</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
@@ -56,20 +53,19 @@
     <leaderTitle>boss</leaderTitle>
     <factionIconPath>World/FB_Pirate</factionIconPath>
     <colorSpectrum>
-        <li>(0.45, 0.00, 0.00)</li>
-        <li>(1.00, 0.00, 0.00)</li>
-        <li>(0.45, 0.10, 0.00)</li>
-        <li>(1.00, 0.25, 0.00)</li>
-        <li>(0.45, 0.00, 0.10)</li>
-        <li>(1.00, 0.00, 0.25)</li>
-        <li>(0.45, 0.00, 0.00)</li>
+      <li>(0.45, 0.00, 0.00)</li>
+      <li>(1.00, 0.00, 0.00)</li>
+      <li>(0.45, 0.10, 0.00)</li>
+      <li>(1.00, 0.25, 0.00)</li>
+      <li>(0.45, 0.00, 0.10)</li>
+      <li>(1.00, 0.00, 0.25)</li>
+      <li>(0.45, 0.00, 0.00)</li>
     </colorSpectrum>
     <permanentEnemy>true</permanentEnemy>
     <factionNameMaker>NamerFaction_FB_Pirate</factionNameMaker>
     <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
     <techLevel>Spacer</techLevel>
     <raidLootMaker>PirateRaidLootMaker</raidLootMaker>
-
     <!-- Extra backstories to include -->
     <backstoryFilters>
       <li>
@@ -78,7 +74,6 @@
         </categories>
       </li>
     </backstoryFilters>
-
     <geneticVariance>1</geneticVariance>
     <allowedArrivalTemperatureRange>
       <min>-40</min>
@@ -93,20 +88,19 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-
     <!-- Pawn lists filled by DefsLoaded hook -->
     <pawnGroupMakers>
       <!-- Standard collection of all fighters -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Ranged only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>65</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Melee only -->
       <li>
@@ -115,19 +109,19 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
       <!-- Snipers only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Heavy damage types -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>25</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Mostly non-humans -->
       <li>
@@ -136,82 +130,78 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
-
       <li>
         <kindDef>Settlement</kindDef>
-        <options/>
+        <options />
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
   </FactionDef>
-
   <FactionDef ParentName="FactionBase">
     <defName>FactionBlender_Civil</defName>
     <label>civil coalition</label>
     <description>A civil faction of outlanders who have united under a common banner, regardless of race or species.\n\nWhat started as a small town grew into a nation as they took in wanderers and refugees from other cities. They quickly realized that the different peoples of the planet have their own strengths, which increased the productivity and security of their nation as a whole.\n\nThey've also learned how to tame many types of animals, large and small, and even hacked some of the mechanoids that have dared to attack them.</description>
     <colorSpectrum>
-        <li>(0.00, 0.35, 0.35)</li>
-        <li>(0.75, 1.00, 1.00)</li>
-        <li>(0.00, 0.20, 0.35)</li>
-        <li>(0.75, 0.85, 1.00)</li>
-        <li>(0.00, 0.35, 0.20)</li>
-        <li>(0.75, 1.00, 0.85)</li>
-        <li>(0.00, 0.35, 0.35)</li>
+      <li>(0.00, 0.35, 0.35)</li>
+      <li>(0.75, 1.00, 1.00)</li>
+      <li>(0.00, 0.20, 0.35)</li>
+      <li>(0.75, 0.85, 1.00)</li>
+      <li>(0.00, 0.35, 0.20)</li>
+      <li>(0.75, 1.00, 0.85)</li>
+      <li>(0.00, 0.35, 0.35)</li>
     </colorSpectrum>
     <pawnSingular>civilian</pawnSingular>
     <pawnsPlural>civilians</pawnsPlural>
     <categoryTag>Outlander</categoryTag>
     <allowedCultures>
-        <li>FB_CivilCoalition</li>
+      <li>FB_CivilCoalition</li>
     </allowedCultures>
     <requiredMemes>
-        <li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophilia</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophilia</li>
     </requiredMemes>
     <disallowedMemes>
-        <!-- Memes that don't fit with an amalgam of races -->
-        <li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophobia</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li>
-
-        <!-- Memes that don't fit with a diverse ideology, but might be honored by the other clan -->
-        <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_ViolentConversion</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
-
-        <!-- Memes that aren't practical for combat -->
-        <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_NonViolence</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Light</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <!-- Memes that don't fit with an amalgam of races -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophobia</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li>
+      <!-- Memes that don't fit with a diverse ideology, but might be honored by the other clan -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_ViolentConversion</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
+      <!-- Memes that aren't practical for combat -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_NonViolence</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Light</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
     </disallowedMemes>
     <disallowedPrecepts>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Acceptable</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_Violence_Abhorrent_Strict</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_Corpses_Sublime</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_Death_Desired</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_Bonding_Abhorrent</li>
-        <li MayRequire="Sarg.AlphaMemes">AM_AnimalSlaughter_Desired</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Proselytizing_Forceful</li>
-        <li MayRequire="VanillaExpanded.VMemesE">VME_Raiding_Honorable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Acceptable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Violence_Abhorrent_Strict</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Corpses_Sublime</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Death_Desired</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_Bonding_Abhorrent</li>
+      <li MayRequire="Sarg.AlphaMemes">AM_AnimalSlaughter_Desired</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Proselytizing_Forceful</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Raiding_Honorable</li>
     </disallowedPrecepts>
     <classicIdeo>false</classicIdeo>
     <structureMemeWeights>
@@ -237,7 +227,6 @@
     <techLevel>Spacer</techLevel>
     <geneticVariance>1</geneticVariance>
     <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
-
     <!-- Extra backstories to include -->
     <backstoryFilters>
       <li>
@@ -254,7 +243,6 @@
         <commonality>0.10</commonality>
       </li>
     </backstoryFilters>
-
     <!-- Filled in via TraderKindDefInjector -->
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
@@ -268,7 +256,6 @@
     <baseTraderKinds>
       <li>Base_Outlander_Standard</li>
     </baseTraderKinds>
-
     <allowedArrivalTemperatureRange>
       <min>-50</min>
       <max>45</max>
@@ -282,20 +269,19 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-
     <!-- Pawn lists filled in via InjectPawnKindDefsToFactions -->
     <pawnGroupMakers>
       <!-- Standard collection of all fighters -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Ranged only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>65</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Melee only -->
       <li>
@@ -306,19 +292,19 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
       <!-- Snipers only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Heavy damage types -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>25</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Mostly non-humans -->
       <li>
@@ -327,66 +313,64 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
-
       <li>
         <kindDef>Peaceful</kindDef>
-        <options/>
+        <options />
       </li>
       <li>
         <kindDef>Trader</kindDef>
-        <traders/>
-        <carriers/>
-        <guards/>
+        <traders />
+        <carriers />
+        <guards />
       </li>
       <li>
         <kindDef>Settlement</kindDef>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Miners</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Hunters</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Loggers</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Farmers</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
   </FactionDef>
-
   <FactionDef ParentName="FactionBase" MayRequire="Ludeon.RimWorld.Ideology">
     <defName>FactionBlender_Clan</defName>
     <label>coalated clan</label>
     <description>A loose collection of races, united under one clan. Like their coalition counterparts, they've learned to train animals and mechanoids of all different sizes. Unlike them, they are a bit looser with their moral codes and ideologies.</description>
     <colorSpectrum>
-        <li>(0.00, 0.00, 0.65)</li>
-        <li>(0.45, 0.45, 1.00)</li>
-        <li>(0.00, 0.20, 0.65)</li>
-        <li>(0.45, 0.60, 1.00)</li>
-        <li>(0.20, 0.00, 0.65)</li>
-        <li>(0.60, 0.45, 1.00)</li>
-        <li>(0.00, 0.00, 0.65)</li>
+      <li>(0.00, 0.00, 0.65)</li>
+      <li>(0.45, 0.45, 1.00)</li>
+      <li>(0.00, 0.20, 0.65)</li>
+      <li>(0.45, 0.60, 1.00)</li>
+      <li>(0.20, 0.00, 0.65)</li>
+      <li>(0.60, 0.45, 1.00)</li>
+      <li>(0.00, 0.00, 0.65)</li>
     </colorSpectrum>
     <pawnSingular>clansmember</pawnSingular>
     <pawnsPlural>clansmembers</pawnsPlural>
     <categoryTag>Outlander</categoryTag>
     <allowedCultures>
-        <li>FB_CoalatedClan</li>
+      <li>FB_CoalatedClan</li>
     </allowedCultures>
     <!-- No meme/precept is disallowed -->
     <disallowedMemes />
@@ -416,7 +400,6 @@
     <techLevel>Spacer</techLevel>
     <geneticVariance>1</geneticVariance>
     <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
-
     <!-- Extra backstories to include -->
     <backstoryFilters>
       <li>
@@ -433,7 +416,6 @@
         <commonality>0.10</commonality>
       </li>
     </backstoryFilters>
-
     <!-- Filled in via TraderKindDefInjector -->
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
@@ -447,7 +429,6 @@
     <baseTraderKinds>
       <li>Base_Outlander_Standard</li>
     </baseTraderKinds>
-
     <allowedArrivalTemperatureRange>
       <min>-50</min>
       <max>45</max>
@@ -461,20 +442,19 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-
     <!-- Pawn lists filled in via InjectPawnKindDefsToFactions -->
     <pawnGroupMakers>
       <!-- Standard collection of all fighters -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Ranged only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>65</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Melee only -->
       <li>
@@ -485,19 +465,19 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
       <!-- Snipers only -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Heavy damage types -->
       <li>
         <kindDef>Combat</kindDef>
         <commonality>25</commonality>
-        <options/>
+        <options />
       </li>
       <!-- Mostly non-humans -->
       <li>
@@ -506,47 +486,44 @@
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
-        <options/>
+        <options />
       </li>
-
       <li>
         <kindDef>Peaceful</kindDef>
-        <options/>
+        <options />
       </li>
       <li>
         <kindDef>Trader</kindDef>
-        <traders/>
-        <carriers/>
-        <guards/>
+        <traders />
+        <carriers />
+        <guards />
       </li>
       <li>
         <kindDef>Settlement</kindDef>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Miners</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Hunters</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Loggers</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <kindDef>Farmers</kindDef>
         <commonality>1</commonality>
-        <options/>
+        <options />
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
   </FactionDef>
-
-
 </Defs>
