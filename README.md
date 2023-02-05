@@ -5,7 +5,7 @@
 Update of SineSwipers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1734490820
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/CN9Rs5X.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
@@ -61,3 +61,4 @@ Chinese translation by CaptainSnafu. （中文汉化，简繁可用，但都显�
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2916556005]Last updated 2023-02-05
